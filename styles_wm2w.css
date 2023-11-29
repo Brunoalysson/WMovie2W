@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: no-repeat center/cover url('logo.jpeg');
+    width: auto;
+    height: 250px;
+    margin-top: 5px;
+    color: #fff;
+    text-align: right;
+    margin-right: 20px;
+    transform: translate(0.75%);
+}
+
+.searchbar {
+    text-align: center;
+}
+
+.movies img {
+    height: 350px;
+    width: 250px;
+}
+
+#searchbar {
+    width: 300px;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: #fff;
+}
+
+.content {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #2b2a2a;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background: #191818;
+    color: #fff;
+}
+
+.top button {
+    width: 45px;
+    border-radius: 10px;
+    background: #191818;
+    color: #fff;
+    outline: none;
+}
+
+.top button:hover {
+    background: #1f1e1e;
+    cursor: pointer;
+}
+
+#MovieList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#MovieList li {
+    padding: 20px;
+    background: #191818;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnAction {
+    border-radius: 10px;
+    border: 1px solid #191818;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #fff;
+}
+
+.btnAction:hover {
+    background: #3a3a3a;
+    cursor: pointer;
+}
+
+.textMovie {
+    color: #fff;
+}

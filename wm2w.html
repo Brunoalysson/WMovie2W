@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMovie2W</title>
+    <link rel="stylesheet" href="styles_wm2w.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<script type="text/javascript" src="search.js"></script>
+
+<body>
+    <header>
+        Welcome USERNAME, to WMovie2W!
+    </header>
+
+    <div class="searchbar">
+        <input id="searchbar" type="text" name="searchbar" placeholder="Search Movies" onkeyup="search()">
+        <ul>
+            <li class="movies">Interstellar <img src="interstellar.jpeg" alt="">
+                <p>
+                    Genres: Sci-Fi, Drama, Adventure
+                </p>
+            </li>
+
+            <li class="movies">Whiplash <img src="whiplash.jpeg" alt="">
+                <p>
+                    Genres: Music, Drama
+                </p>
+            </li>
+
+            <li class="movies">La la land <img src="lalaland.jpeg" alt="">
+                <p>
+                    Genres: Musical, Comedy, Romance
+                </p>
+            </li>
+
+            <li class="movies">Inception <img src="inception.jpeg" alt="">
+                <p>
+                    Genres: Action, Sci-fi, Mystery
+                </p>
+            </li>
+
+            <li class="movies">Arrival <img src="arrival.jpeg" alt="">
+                <p>
+                    Genres: Sci-fi, Mystery, Thriller
+                </p>
+            </li>
+
+            <li class="movies">Good Will Hunting <img src="good_will_hunting.jpeg" alt="">
+                <p>
+                    Genres: Drama, Romance
+                </p>
+            </li>
+
+            <li class="movies">Shawshank Redemption <img src="shawshank_redemption.jpeg" alt="">
+                <p>
+                    Genres: Drama
+                </p>
+            </li>
+
+            <li class="movies">Inside Out <img src="inside_out.jpeg" alt="">
+                <p>
+                    Genres: Animation, Comedy, Adventure
+                </p>
+            </li>
+
+            <li class="movies">Seven <img src="seven.jpeg" alt="">
+                <p>
+                    Genres: Crime, Thriller, Mystery
+                </p>
+            </li>
+
+            <li class="movies">Tropa de Elite <img src="tropa_de_elite.jpeg" alt="">
+                <p>
+                    Genres: Action, Crime, Drama
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <aside>
+        My Lists
+
+        <div class="content">
+            <div class="top">
+                <input type="text" id="inputNewMovie" placeholder="Add new movie">
+                <button id="btnAddMovie">
+                    <i class='bx bxs-plus-square'></i>
+                </button>
+            </div>
+
+            <ul id="MovieList">
+                <li>
+                    <span class="textMovie">Filme 1</span>
+                    <div>
+                        <button class="btnAction">
+                            <i class='bx bxs-pencil'></i>
+                        </button>
+
+                        <button class="btnAction">
+                            <i class='bx bxs-trash'></i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </aside>
+
+</body>
+
+</html>
